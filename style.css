@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon+Milk&display=swap'); /* Assuming the font is available on Google Fonts */
+
+body {
+    font-family: 'Lemon Milk', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    padding: 20px; /* Add some padding to the container */
+}
+
+header {
+    background-color: none;
+    color: black;
+    padding: 1em 0;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lemon Milk', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 900; /* Make the header text bold */
+}
+
+.description {
+    width: 80%;
+    margin: 0 auto 20px auto; /* Add bottom margin for spacing */
+    text-align: center; /* Center the text */
+    font-weight: 510;
+    font-family: 'Lemon Milk', sans-serif;
+}
+
+.description p {
+    font-size: 1.2em;
+    margin: 0; /* Remove bottom margin */
+    display: inline; /* Ensure the element is inline */
+}
+
+.essays-list {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Center the list */
+    padding: 0;
+}
+
+.essays-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center the text inside the list */
+}
+
+.essays-list ul li {
+    margin: 10px 0;
+}
+
+.essays-list ul li a {
+    color: #050506;
+    text-decoration: none;
+    font-weight: 500; /* Make the link text bold */
+    transition: color 0.3s ease;
+    font-size: 17px; /* Adjust font size to match the image */
+}
+
+section {
+    display: block; /* Show sections */
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-weight: 700; /* Make the section headers bold */
+}
+
+p {
+    margin: 0.5em 0;
+}

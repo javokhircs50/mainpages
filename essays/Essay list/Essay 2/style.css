@@ -1,0 +1,146 @@
+/* Import Google Fonts at the top of the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8; /* Increase line-height for better readability */
+    background-color: #f4f4f4; /* Slightly darker background for contrast */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    padding: 20px; /* Add padding around the body */
+}
+
+.container {
+    text-align: left; /* Align text to the left */
+    width: 90%; /* Adjust width for better readability */
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px; /* Increase padding for more space inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: none;
+    color: #333;
+    padding: 1em 0;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Increase font size */
+    font-weight: 900; /* Make the header text bold */
+    color: #020202; /* Add a color for emphasis */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.description {
+    width: 100%; /* Make description take full width */
+    margin: 0 auto 20px auto; /* Add bottom margin for spacing */
+    text-align: center; /* Center the text */
+    font-weight: 700;
+}
+
+.description p {
+    font-size: 1.2em;
+    margin: 0; /* Remove bottom margin */
+    display: inline; /* Ensure the element is inline */
+}
+
+.essays-list {
+    width: 100%; /* Adjust width for better spacing */
+    margin: 0 auto;
+    text-align: left; /* Align text to the left */
+}
+
+.essays-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margins */
+}
+
+.essays-list ul li {
+    margin: 10px 0;
+    font-weight: 700; /* Make the menu text bold */
+}
+
+.essays-list ul li a {
+    color: #061107; /* Add color for links */
+    text-decoration: none;
+    font-weight: 700; /* Make the link text bold */
+}
+
+.essays-list ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+section {
+    display: block; /* Show sections */
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8em; /* Adjust font size */
+    border-bottom: 2px solid #ccc; /* Thicker bottom border */
+    padding-bottom: 0.5em;
+    margin-top: 30px; /* Add top margin for spacing */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    font-weight: 700; /* Make the section headers bold */
+}
+
+p {
+    margin: 1em 0; /* Increase margin for better spacing between paragraphs */
+    line-height: 1.6; /* Increase line height for better readability */
+    font-size: 1.2em; /* Slightly increase font size for readability */
+    color: #0b0b0b ;
+}
+
+/* Add new styles for meta information */
+.meta {
+    font-size: 1em;
+    color: #0b0b0b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.meta span {
+    color: rgb(13, 12, 12); /* White text */
+    padding: 8px 15px; /* Padding */
+    margin: 0 5px; /* Margin between spans */
+    display: inline-block; /* Inline-block for spacing */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 2px 4px rgba(252, 251, 251, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for the home button */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.home-button a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.home-button a:hover {
+    color: #0c87d9;
+}
