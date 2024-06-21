@@ -5,13 +5,14 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #000000;
     color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Align items to the top */
     height: 100vh;
+    text-transform: none; /* Ensure the body text is not capitalized */
 }
 
 .container {
@@ -22,7 +23,7 @@ body {
 
 header {
     background-color: none;
-    color: black;
+    color: rgb(255, 252, 252);
     padding: 1em 0;
     margin-bottom: 20px;
     width: 100%;
@@ -34,6 +35,7 @@ header h1 {
     margin: 0;
     font-size: 2em;
     font-weight: 900; /* Make the header text bold */
+    text-transform: none; /* Ensure the header text is not capitalized */
 }
 
 .description {
@@ -48,6 +50,7 @@ header h1 {
     font-size: 1.2em;
     margin: 0; /* Remove bottom margin */
     display: inline; /* Ensure the element is inline */
+    text-transform: none; /* Ensure the description text is not capitalized */
 }
 
 .essays-list {
@@ -70,11 +73,16 @@ header h1 {
 }
 
 .essays-list ul li a {
-    color: #050506;
+    color: #f2f2f5;
     text-decoration: none;
-    font-weight: 500; /* Make the link text bold */
+    font-weight: 300; /* Make the link text bold */
     transition: color 0.3s ease;
-    font-size: 17px; /* Adjust font size to match the image */
+    font-size: 15px; /* Adjust font size to match the image */
+    text-transform: none; /* Ensure the list item text is not capitalized */
+}
+
+.essays-list ul li a:hover {
+    color: #000; /* Change text color to black when hovered */
 }
 
 section {
