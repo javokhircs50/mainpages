@@ -1,10 +1,9 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     // Annotate the Home button
     const homeLink = document.getElementById('home-link');
     const homeAnnotation = window.RoughNotation.annotate(homeLink, {
         type: 'box',
-        color: 'black',
+        color: 'yellow',
         padding: [4, 10, 10, 10]
     });
     homeAnnotation.show();
@@ -15,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (publishedSpan) {
         const publishedAnnotation = window.RoughNotation.annotate(publishedSpan, {
-            type: 'box',
+            type: 'underline',
             color: 'black',
             padding: [1, 0, 0, 1]
         });
@@ -23,10 +22,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     if (readTimeSpan) {
         const readTimeAnnotation = window.RoughNotation.annotate(readTimeSpan, {
-            type: 'box',
+            type: 'underline',
             color: 'black',
             padding: [1, 0, 0, 1]
         });
         readTimeAnnotation.show();
+    }
+
+    // Annotate the "Lesson learnt?" header text
+    const headerText = document.querySelector('header h1');
+    if (headerText) {
+        const headerAnnotation = window.RoughNotation.annotate(headerText, {
+            type: 'highlight',
+            color: 'yellow',
+            padding: [1, 1, 2, 2]
+        });
+        headerAnnotation.show();
     }
 });
